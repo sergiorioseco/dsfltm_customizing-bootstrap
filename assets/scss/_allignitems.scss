@@ -1,0 +1,16 @@
+.flex-center-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section {
+    height: 100vh;
+    @extend .flex-center-center;
+        .card-body{
+            @extend .flex-center-center;
+            flex-direction: column;
+            color: white;
+        }
+}

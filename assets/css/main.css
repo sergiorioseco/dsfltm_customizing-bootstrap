@@ -1,0 +1,15 @@
+.flex-center-center, .section .card-body, .section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  height: 100vh;
+}
+.section .card-body {
+  flex-direction: column;
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */
